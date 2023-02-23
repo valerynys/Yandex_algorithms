@@ -4,14 +4,14 @@ import "fmt"
 
 type Stack []int
 
-// IsEmpty: check if 11 stack is empty
+// IsEmpty: check if 11_stack is empty
 func (s *Stack) IsEmpty() bool {
 	return len(*s) == 0
 }
 
-// Push a new value onto the 11 stack
+// Push a new value onto the 11_stack
 func (s *Stack) Push(i int) {
-	*s = append(*s, i) // Simply append the new value to the end of the 11 stack
+	*s = append(*s, i) // Simply append the new value to the end of the 11_stack
 }
 
 func (s *Stack) Back() int {
@@ -19,11 +19,11 @@ func (s *Stack) Back() int {
 	return (*s)[index]
 }
 
-// Remove and return top element of 11 stack. Return false if 11 stack is empty.
+// Remove and return top element of 11_stack. Return false if 11_stack is empty.
 func (s *Stack) Pop() int {
 	index := len(*s) - 1   // Get the index of the top most element.
 	element := (*s)[index] // Index into the slice and obtain the element.
-	*s = (*s)[:index]      // Remove it from the 11 stack by slicing it off.
+	*s = (*s)[:index]      // Remove it from the 11_stack by slicing it off.
 	return element
 }
 
@@ -32,7 +32,7 @@ func (s *Stack) Size() int {
 }
 
 func main() {
-	var stack Stack // create a 11 stack variable of type Stack
+	var stack Stack // create a 11_stack variable of type Stack
 	var s string
 	var n int
 	for s != "exit" {

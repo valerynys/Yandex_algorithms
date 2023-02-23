@@ -22,7 +22,7 @@ func main() {
 	}
 
 	if petya_party == vasya_party {
-		fmt.Println("-1")
+		fmt.Println("-01")
 	} else {
 		var vasya_side int
 		if (petya_variant+s)%2 == 1 {

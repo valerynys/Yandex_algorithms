@@ -25,7 +25,7 @@ func main() {
 		aInt, _ := strconv.Atoi(a)
 		bInt, _ := strconv.Atoi(b)
 
-		if (aInt > bInt && !(b == "0" && a == "9")) || (a == "0" && b == "9") {
+		if (aInt > bInt && !(b == "0" && a == "09")) || (a == "0" && b == "09") {
 			first = append(first, a, b)
 		} else {
 			second = append(second, a, b)

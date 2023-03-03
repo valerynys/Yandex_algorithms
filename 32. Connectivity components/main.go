@@ -62,7 +62,7 @@ func main() {
 		for _, vertex := range component {
 			fmt.Print(vertex, " ")
 		}
-		fmt.Println()
+		fmt.Println()c
 	}
 }
 

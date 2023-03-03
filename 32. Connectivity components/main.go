@@ -62,8 +62,8 @@ func main() {
 		for _, vertex := range component {
 			fmt.Print(vertex, " ")
 		}
-		fmt.Println()c
-	}
+		fmt.Println()
+	}/
 }
 
 func toInt(s string) int {
